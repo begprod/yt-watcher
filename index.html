@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Viewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="header__title">
+        <img class="logo" src="./images//yt.svg" alt="Youtube Watcher">
+        Youtube Watcher
+      </h1>
+      <h2 class="header__sub-title">Paste embed iframe for watch video, which youtube block if you use addBlock, uBlock,
+        etc.</h2>
+    </div>
+    <ol class="list">
+      <li>Open youtube video</li>
+      <li>Click share button</li>
+      <li>Click embed button</li>
+      <li>Copy iframe</li>
+      <li>Paste iframe in input below</li>
+    </ol>
+
+    <div class="input-bar">
+      <input id="iframe-input" class="input-bar__input" name="iframe-input" type="text" placeholder="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/&quot; title=&quot;YouTube video player&quot;></iframe>">
+    </div>
+  </div>
+
+  <div id="player" class="player"></div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
