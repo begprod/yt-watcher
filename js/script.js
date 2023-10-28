@@ -10,3 +10,7 @@ input.addEventListener("change", (event) => {
     player.style.opacity = 1;
   }
 });
+
+window.addEventListener('beforeunload', (event) => {
+  event.returnValue = `Are you sure you want to leave?`;
+});
