@@ -2,7 +2,9 @@
 
 ## Watch embedded youtube videos without ads and other distractions
 
-[https://begprod.github.io/yt-watcher/](https://begprod.github.io/yt-watcher/)
+
+<a href="https://begprod.github.io/yt-watcher/" target="_blank">begprod.github.io/yt-watcher</a>
+
 
 - Open youtube video
 - Click share button
